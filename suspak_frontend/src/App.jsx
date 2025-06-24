@@ -1,11 +1,15 @@
 import { useState } from 'react'
+import Product from './pages/Product'
 
 
 function App() {
   
 
   return (
-    <h1 className='text-center text-4xl font-bold'>Hello react</h1>
+    <div className="min-h-screen bg-gray-100">
+
+      <Product/>
+    </div>
   )
 }
 
